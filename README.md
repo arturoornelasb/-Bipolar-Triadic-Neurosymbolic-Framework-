@@ -64,13 +64,13 @@ We validated that continuous calculus is an emergent property of high-density di
 Our "Omnivorous Ingestor" algorithm automatically cleaned and unified the raw dataset.
 * [cite_start]**Efficiency:** Reduced the graph from **638 nodes to 378 nodes** (40% noise reduction) while doubling connection density to **1,348 edges**[cite: 59].
 
-# Unified Holographic Resonance Theory (UHRT) – November 20, 2025
+### 5. Unified Holographic Resonance Theory (UHRT) – November 20, 2025
 **Complete Theory + Full Empirical Validation**
 
-## 5. Continuous Calculus is Discrete (Core Prediction Confirmed)
+ Continuous Calculus is Discrete (Core Prediction Confirmed)
 
-![Convergence with N=100 triads → error ε = 0.16](convergence_N100.png)
-![Convergence with N=1000 triads → error ε = 0.0160 → exact limit 16.0](convergence_N1000.png)
+![Convergence with N=100 triads → error ε = 0.16] (convergence_N100.png)
+![Convergence with N=1000 triads → error ε = 0.0160 → exact limit 16.0] (convergence_N1000.png)
 
 **UHRT Prediction (Ornelas Brand, 2025 §5.3):**
 > “Continuous calculus is an illusory emergence arising from the massive summation of discrete triads subjected to entropic pruning.”
