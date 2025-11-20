@@ -95,7 +95,7 @@ The code is organized to map directly to the sections of the published and upcom
 * **`semantic_engine.py`**: Calculates resonance using vector parallelism.
 * **`run_real_world_demo.py`**: Validates geometric separation of concepts using GloVe simulations.
 
-
+```text
 .
 ├── .gitignore                       # Config to ignore Python trash (__pycache__, .pyc)
 ├── README.md                        # Master Documentation (Overview, 4 Pillars, Citation)
@@ -151,7 +151,7 @@ The code is organized to map directly to the sections of the published and upcom
         ├── calculus_convergence.png # Plot of the discrete integral error (epsilon=0.16)
         └── graph_validation_plot.png # Log-Log plot of the topology
 
-
+```
 ---
 
 ## ⚠️ Data Attribution
