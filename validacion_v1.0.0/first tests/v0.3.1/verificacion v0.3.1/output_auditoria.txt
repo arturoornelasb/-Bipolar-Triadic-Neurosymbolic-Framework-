@@ -1,0 +1,235 @@
+ornelord@ornelord-A520M-K-V2:~/triadic-framework/triadic-framework$ poetry run python - << 'PY'
+from triadic_framework.core.network import TriadicNetwork
+net = TriadicNetwork() # recreamos rápidamente el grafo
+# Añadimos las mismas triadas del notebook (copia-pega esto)
+quartets = [
+    ((12,24,36,72), ('GCD','a','b','LCM')),
+    ((12,1,3,4), ('V','1','I','R')),
+    ((100,1,10,10), ('2KE','1','m','v²')),
+    ((50,50,1,1), ('W','ΔKE','1','1')),
+    ((10,5,50,1), ('F','d','W','1')),
+    ((20,10,2,1), ('F','m','a','1')),
+    ((30,1,10,3), ('F','1','k','x')),
+    ((1,4,4,1), ('F','r²','G·m1·m2','1')),
+]
+for values, labels in quartets:
+    net.add_candidate_quartet(values, labels)
+# === VERIFICACIÓN FINAL ===
+print(f"Nodos totales: {net.G.number_of_nodes()}")
+print(f"Aristas (triadas válidas): {net.G.number_of_edges()}\n")
+print("Lista completa de triadas aceptadas (K ≥ 0.9):")
+for u, v, data in net.G.edges(data=True):
+    print(f"{u} → {v} | K = {data['K']:.1f} | {data['label']}")
+PY
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+✓ Triada añadida | K=1.0 | GCD · LCM = 1/1 · a · b
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+✓ Triada añadida | K=1.0 | V · 1 = 1/1 · I · R
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+✓ Triada añadida | K=1.0 | 2KE · 1 = 1/1 · m · v²
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=2500, b=1 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=2500, b=1 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=2500, b=1 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=2500, b=1 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=2500 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=2500 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=2500 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=2500 → K=1/2500
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+✓ Triada añadida | K=1.0 | W · 1 = 1/1 · ΔKE · 1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+✓ Triada añadida | K=1.0 | F · d = 1/1 · W · 1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+✓ Triada añadida | K=1.0 | F · 1 = 1/1 · m · a
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=9 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=9, b=1 → K=1/9
+✓ Triada añadida | K=1.0 | F · 1 = 1/1 · k · x
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=16, b=1 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=16 → K=1/16
+✓ Triada añadida | K=1.0 | F · G·m1·m2 = 1/1 · r² · 1
+Nodos totales: 27
+Aristas (triadas válidas): 8
+Lista completa de triadas aceptadas (K ≥ 0.9):
+GCD,a,b → LCM | K = 1.0 | GCD·LCM = 1/1·a·b
+V,I,R → 1 | K = 1.0 | V·1 = 1/1·I·R
+2KE,m,v² → 1 | K = 1.0 | 2KE·1 = 1/1·m·v²
+W,ΔKE,1 → 1 | K = 1.0 | W·1 = 1/1·ΔKE·1
+F,W,1 → d | K = 1.0 | F·d = 1/1·W·1
+F,m,a → 1 | K = 1.0 | F·1 = 1/1·m·a
+F,k,x → 1 | K = 1.0 | F·1 = 1/1·k·x
+F,r²,1 → G·m1·m2 | K = 1.0 | F·G·m1·m2 = 1/1·r²·1
+ornelord@ornelord-A520M-K-V2:~/triadic-framework/triadic-framework$

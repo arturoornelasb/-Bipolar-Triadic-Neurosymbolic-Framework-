@@ -1,0 +1,69 @@
+ornelord@ornelord-A520M-K-V2:~/triadic-framework/triadic-framework$ poetry run python test_dimensional_guard.py
+=== PRUEBA DEL GUARDIÁN DIMENSIONAL ===
+Intentando añadir triada: ('F', 'm', 'a', '1') ← valores (20, 10, 2, 1)
+  Balance dimensional OK: [M][L][T]^-2 = [M][L][T]^-2
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=4, b=1 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=4 → K=1/4
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+  TRIADA ACEPTADA | K=1.0 | F · 1 = 1/1 · m · a
+Intentando añadir triada: ('W', 'F', 'd', '1') ← valores (50, 5, 10, 1)
+  Balance dimensional OK: [M][L]^2[T]^-2 = [M][L]^2[T]^-2
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=25, b=1 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=100, b=1 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=25 → K=1/25
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=100 → K=1/100
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+  TRIADA ACEPTADA | K=1.0 | W · 1 = 1/1 · F · d
+Intentando añadir triada: ('F', 'm', 'm', 'a') ← valores (100, 10, 10, 1)
+  FALLO DIMENSIONAL: [M][L]^2[T]^-4 ≠ [M]^2
+  TRIADA RECHAZADA por inconsistencia dimensional
+Intentando añadir triada: ('W', 'm', 'R', '1') ← valores (500, 5, 100, 1)
+  FALLO DIMENSIONAL: [M][L]^2[T]^-2 ≠ [M]^2[L]^2[T]^-3[I]^-2
+  TRIADA RECHAZADA por inconsistencia dimensional
+Grafo final: 2 triadas válidas (debe ser 2)
+/home/ornelord/triadic-framework/triadic-framework/triadic_framework/core/network.py:84: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()
+/home/ornelord/triadic-framework/triadic-framework/triadic_framework/core/network.py:86: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Grafo exportado a grafo_con_guardian.png
+ornelord@ornelord-A520M-K-V2:~/triadic-framework/triadic-framework$

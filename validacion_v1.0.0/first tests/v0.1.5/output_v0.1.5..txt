@@ -1,0 +1,14 @@
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+INFO:triadic_framework.core.triadic_engine:Φ_D discovered a=1, b=1 → K=1
+Unique rules (a,b): {(1, 1)}
+Max K = 1.0
+ornelord@ornelord-A520M-K-V2:~/triadic-framework/triadic-framework$

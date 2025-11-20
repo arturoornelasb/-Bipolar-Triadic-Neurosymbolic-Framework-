@@ -1,0 +1,3 @@
+Grafo exportado a classical_mechanics_triadic_graph.png
+nota
+ver notebook para output completo

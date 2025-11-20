@@ -1,0 +1,40 @@
+# --- Python Trash ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+env/
+venv/
+.env
+.venv
+.Python
+
+# --- Distribution / Builds ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Logs & Databases ---
+*.log
+*.sqlite
+db.sqlite3
+
+# --- Jupyter Notebooks (Optional checkpoints) ---
+.ipynb_checkpoints
+
+# --- OS Trash ---
+.DS_Store
+Thumbs.db
