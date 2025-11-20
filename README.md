@@ -1,7 +1,8 @@
 # Bipolar Triadic Neurosymbolic Framework: From Vector Statistics to Deterministic Resonance
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) 
 
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664193.svg)](https://doi.org/10.5281/zenodo.17664193)
 
 
 This repository contains the reference implementation and validation code for two distinct paradigms of Artificial Intelligence developed under the **Unified Holographic Resonance Theory (UHRT)**:
@@ -188,6 +189,7 @@ The papers describing these findings are currently in the final stages of prepar
 
 If you use this code or the UHRT theory in your research, please cite the DOI of this repository (via Zenodo):
 
+J.ArturoOrnelasBrand. (2025). arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-: Foundation Snapshot: Bipolar Triadic Neurosymbolic Framework (v0.1.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.17664193
 
 ## License
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
