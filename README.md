@@ -2,52 +2,30 @@ Bipolar Triadic Neurosymbolic Framework: Deterministic Semantic Resonance
 
 "The deterministic, prime-resonant future begins here."
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) 
+
+
+
+
 This repository contains the reference implementation, validation datasets, and experimental logs for the Unified Semantic Engine, a neurosymbolic system that unifies Physics and Abstract Logic under a single deterministic law: Arithmetic Resonance ($K=1.0$).
 
 🏆 Scientific Breakthroughs (v2.0.0)
 
 This framework introduces the Unified Holographic Resonance Theory (UHRT), replacing floating-point statistical approximations with exact Prime Modular Arithmetic.
 
-Domain
-
-Discovery
-
-Metric / Result
-
-Physics
-
-"Super-Dense" Topology
-
-$\gamma = 1.11$ (Monarchy of Constants)
-
-Semantics
-
-High-Velocity Reasoning
-
-2.82 Million analogies/sec (Peak)
-
-Engineering
-
-Semantic Compression
-
-98.65% (2,300 bytes $\to$ 31 bytes)
-
-Math
-
-Calculus Emergence
-
-Discrete sums converge to integral with $\epsilon = 0.016$
-
-Unification
-
-Low-Entropy Structure
-
-Super Metric $\mathcal{UBS}_{UHM} = 0.0636$
+| Domain | Discovery | Metric / Result |
+| :--- | :--- | :--- |
+| **Physics** | "Super-Dense" Topology | $\gamma = 1.11$ (Monarchy of Constants) |
+| **Semantics** | High-Velocity Reasoning | 2.82 Million analogies/sec (Peak) |
+| **Engineering** | Semantic Compression | 98.65% (2,300 bytes $\to$ 31 bytes) |
+| **Math** | Calculus Emergence | Discrete sums converge to integral with $\epsilon = 0.016$ |
+| **Unification** | Low-Entropy Structure | Super Metric $\mathcal{UBS}_{UHM} = 0.0636$ |
 
 📂 Repository Structure
 
 The repository validates the theory across three layers: The Logic Core, Data Ingestion, and Scientific Validation.
 
+```
 .
 ├── LICENSE
 ├── README.md
@@ -74,7 +52,7 @@ The repository validates the theory across three layers: The Logic Core, Data In
     ├── final_physics_database.json            # Raw Physics Laws (~400 equations)
     └── glove.6B.50d.txt                       # Legacy Vector Data (User must download)
 
-
+```
 🔧 Component Details
 
 1. Core Logic (triadic_framework/core/)
@@ -167,4 +145,4 @@ License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
-Copyright (c) 2025 José Arturo Ornelas Brand
+Copyright © 2025 José Arturo Ornelas Brand. 
