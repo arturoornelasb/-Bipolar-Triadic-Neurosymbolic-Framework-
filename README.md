@@ -4,6 +4,7 @@ Bipolar Triadic Neurosymbolic Framework: Deterministic Semantic Resonance
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/) 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17676514.svg)](https://doi.org/10.5281/zenodo.17676514)
 
 
 
@@ -125,7 +126,7 @@ This code serves as the executable proof for the following research:
 
 Unified Paper (v2.0):
 
-Ornelas Brand, J. A. (2025). Deterministic Semantic Resonance: Unifying Physics and Abstract Logic via Prime Modular Arithmetic and Goldbach Decomposition. (Preprint).
+J.ArturoOrnelasBrand. (2025). arturoornelasb/-Bipolar-Triadic-Neurosymbolic-Framework-: Bipolar Triadic Neurosymbolic Framework: Deterministic Semantic Resonance (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.17676514
 
 Foundational Papers:
 
