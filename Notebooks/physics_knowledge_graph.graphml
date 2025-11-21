@@ -1,0 +1,3989 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="π">
+      <data key="d0">constant</data>
+      <data key="d1">Pi</data>
+    </node>
+    <node id="c&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Vacuum speed of light</data>
+    </node>
+    <node id="G&lt;sub&gt;N&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Newtonian constant of gravitation</data>
+    </node>
+    <node id="L">
+      <data key="d0">constant</data>
+      <data key="d1">Planck constant</data>
+    </node>
+    <node id="μ&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Magnetic constant</data>
+    </node>
+    <node id="ε&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Electric constant</data>
+    </node>
+    <node id="T&lt;sub&gt;a&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Absolute zero</data>
+    </node>
+    <node id="u">
+      <data key="d0">constant</data>
+      <data key="d1">Unified atomic mass unit</data>
+    </node>
+    <node id="N&lt;sub&gt;A&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Avogadro constant</data>
+    </node>
+    <node id="k">
+      <data key="d0">constant</data>
+      <data key="d1">Boltzmann constant</data>
+    </node>
+    <node id="λ&lt;sub&gt;C&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Compton wavelength of an electron</data>
+    </node>
+    <node id="F&lt;sub&gt;A&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Faraday constant</data>
+    </node>
+    <node id="N&lt;sub&gt;L&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Loschmidt constant</data>
+    </node>
+    <node id="R&lt;sub&gt;H&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Rydberg constant</data>
+    </node>
+    <node id="R&lt;sub&gt;y&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Rydberg frequency</data>
+    </node>
+    <node id="σ&lt;sub&gt;B&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Stefan-Boltzmann constant</data>
+    </node>
+    <node id="R&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Gas constant</data>
+    </node>
+    <node id="b&lt;sub&gt;energy&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Wien displacement law constant</data>
+    </node>
+    <node id="V&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Molar volume of an ideal gas</data>
+    </node>
+    <node id="g&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Standard acceleration of gravity</data>
+    </node>
+    <node id="T&lt;sub&gt;0&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Standard temperature</data>
+    </node>
+    <node id="CONST_e">
+      <data key="d0">constant</data>
+      <data key="d1">Elementary charge</data>
+    </node>
+    <node id="m&lt;sub&gt;e&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Electron mass</data>
+    </node>
+    <node id="m&lt;sub&gt;n&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Neutron mass</data>
+    </node>
+    <node id="m&lt;sub&gt;p&lt;/sub&gt;">
+      <data key="d0">constant</data>
+      <data key="d1">Proton mass</data>
+    </node>
+    <node id="Force" />
+    <node id="Area" />
+    <node id="BRANCH_THERMODYNAMICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="k_e" />
+    <node id="q_1" />
+    <node id="q_2" />
+    <node id="BRANCH_ELECTROMAGNETISM">
+      <data key="d0">branch</data>
+    </node>
+    <node id="CONST_eps0" />
+    <node id="CONST_pi" />
+    <node id="Energy" />
+    <node id="Charge" />
+    <node id="q_test" />
+    <node id="grad" />
+    <node id="Voltage" />
+    <node id="sigma" />
+    <node id="Volume" />
+    <node id="Resistance" />
+    <node id="B_Field" />
+    <node id="v" />
+    <node id="Current" />
+    <node id="dl" />
+    <node id="integral" />
+    <node id="CONST_mu0" />
+    <node id="Moles" />
+    <node id="t" />
+    <node id="dPhi_B" />
+    <node id="N2" />
+    <node id="I_rms" />
+    <node id="CONST_c" />
+    <node id="V_rms" />
+    <node id="lightos" />
+    <node id="phi" />
+    <node id="V_m" />
+    <node id="ax" />
+    <node id="C" />
+    <node id="j" />
+    <node id="omega" />
+    <node id="Delta_T" />
+    <node id="Mass" />
+    <node id="k_thermal" />
+    <node id="T_temp" />
+    <node id="k_B" />
+    <node id="dQ" />
+    <node id="Temperature" />
+    <node id="V_f" />
+    <node id="V_i" />
+    <node id="V_volume" />
+    <node id="rho" />
+    <node id="E_avg" />
+    <node id="Pressure" />
+    <node id="a" />
+    <node id="b" />
+    <node id="T_h" />
+    <node id="T_c" />
+    <node id="Q_h" />
+    <node id="Q_c" />
+    <node id="f" />
+    <node id="BRANCH_QUANTUM MECHANICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="CONST_h" />
+    <node id="Momentum" />
+    <node id="Deltax" />
+    <node id="Deltap" />
+    <node id="Deltat" />
+    <node id="DeltaE" />
+    <node id="Deltaphi" />
+    <node id="DeltaL_z" />
+    <node id="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="chargeV" />
+    <node id="R_y" />
+    <node id="m_e" />
+    <node id="N_0" />
+    <node id="chargexp" />
+    <node id="t_half" />
+    <node id="Deltam" />
+    <node id="m_n" />
+    <node id="Particles" />
+    <node id="BRANCH_RELATIVITY">
+      <data key="d0">branch</data>
+    </node>
+    <node id="c2" />
+    <node id="v2" />
+    <node id="dt_0" />
+    <node id="f_0" />
+    <node id="os" />
+    <node id="G" />
+    <node id="grav" />
+    <node id="M_sun" />
+    <node id="km" />
+    <node id="difft2" />
+    <node id="diff2" />
+    <node id="nabla2" />
+    <node id="BRANCH_OPTICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="lamda_medium" />
+    <node id="lamda_0" />
+    <node id="do" />
+    <node id="di" />
+    <node id="R1" />
+    <node id="R2" />
+    <node id="I_0" />
+    <node id="lightos2" />
+    <node id="theta" />
+    <node id="BRANCH_STATISTICAL MECHANICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="f3" />
+    <node id="light2" />
+    <node id="v_max2" />
+    <node id="lamda_C" />
+    <node id="n_12" />
+    <node id="R_H" />
+    <node id="n_22" />
+    <node id="diffpsi" />
+    <node id="difft" />
+    <node id="ihbar" />
+    <node id="psi" />
+    <node id="hbar2" />
+    <node id="L2" />
+    <node id="n2" />
+    <node id="pi2" />
+    <node id="m_l" />
+    <node id="P_0" />
+    <node id="Power" />
+    <node id="lightonstant" />
+    <node id="BRANCH_FLUID MECHANICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="P_2" />
+    <node id="P_1" />
+    <node id="v_12" />
+    <node id="v_22" />
+    <node id="du" />
+    <node id="dy" />
+    <node id="eta" />
+    <node id="dv" />
+    <node id="nu" />
+    <node id="v_r" />
+    <node id="v_s" />
+    <node id="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="E_v" />
+    <node id="E_c" />
+    <node id="lamda_cutoff" />
+    <node id="N_c" />
+    <node id="N_v" />
+    <node id="n_i" />
+    <node id="T_c_D" />
+    <node id="xp" />
+    <node id="zoo" />
+    <node id="H_0" />
+    <node id="BRANCH_ASTROPHYSICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="T_eff4" />
+    <node id="L_sun" />
+    <node id="mu_e" />
+    <node id="E_F" />
+    <node id="lamda_interaction" />
+    <node id="density" />
+    <node id="M2" />
+    <node id="flux" />
+    <node id="r2" />
+    <node id="p_mu" />
+    <node id="diff_mu" />
+    <node id="igamma" />
+    <node id="P_power" />
+    <node id="I2" />
+    <node id="V2" />
+    <node id="SigmaI_out" />
+    <node id="SigmaI_in" />
+    <node id="q1" />
+    <node id="q2" />
+    <node id="chargepsilon0" />
+    <node id="Current_Density" />
+    <node id="si" />
+    <node id="vB" />
+    <node id="LB" />
+    <node id="mu0" />
+    <node id="epsilon" />
+    <node id="Phi_B" />
+    <node id="dI" />
+    <node id="X_C" />
+    <node id="X_L" />
+    <node id="N1" />
+    <node id="V1" />
+    <node id="I1" />
+    <node id="nabla" />
+    <node id="diffB" />
+    <node id="diffE" />
+    <node id="Entropy" />
+    <node id="B2" />
+    <node id="E2" />
+    <node id="epsilon0" />
+    <node id="r3" />
+    <node id="V_H" />
+    <node id="I_D" />
+    <node id="dPhi_E" />
+    <node id="f_c" />
+    <node id="qB" />
+    <node id="mv" />
+    <node id="r_L" />
+    <node id="D" />
+    <node id="C0" />
+    <node id="kappa" />
+    <node id="lighthi_e" />
+    <node id="rho_f" />
+    <node id="lighthi_eE" />
+    <node id="mu_r" />
+    <node id="lighthi_m" />
+    <node id="lighthi_mH" />
+    <node id="M12" />
+    <node id="Phi12" />
+    <node id="Al" />
+    <node id="dPhi" />
+    <node id="dB" />
+    <node id="sigmaV" />
+    <node id="chargetafB_max" />
+    <node id="Z0" />
+    <node id="Z_L" />
+    <node id="gravamma" />
+    <node id="VSWR" />
+    <node id="P_rad" />
+    <node id="R_r" />
+    <node id="Omega" />
+    <node id="U_max" />
+    <node id="P_r" />
+    <node id="P_t" />
+    <node id="grav_tG_r" />
+    <node id="A_e" />
+    <node id="gravlamda2" />
+    <node id="D2" />
+    <node id="R_ff" />
+    <node id="v_p" />
+    <node id="v_g" />
+    <node id="BW" />
+    <node id="deltaQ" />
+    <node id="dU" />
+    <node id="deltaW" />
+    <node id="nRT" />
+    <node id="PV" />
+    <node id="P2" />
+    <node id="P1" />
+    <node id="T2" />
+    <node id="T1" />
+    <node id="n1" />
+    <node id="RT" />
+    <node id="C_V" />
+    <node id="diffT" />
+    <node id="diffU" />
+    <node id="C_P" />
+    <node id="diffH" />
+    <node id="TS" />
+    <node id="diffP" />
+    <node id="diffS" />
+    <node id="diffV" />
+    <node id="Delta_V" />
+    <node id="dP" />
+    <node id="dT" />
+    <node id="sigmaT4" />
+    <node id="lamda_max" />
+    <node id="hc" />
+    <node id="COP_R" />
+    <node id="COP_HP" />
+    <node id="an" />
+    <node id="on" />
+    <node id="st" />
+    <node id="dx" />
+    <node id="q_heat" />
+    <node id="T14" />
+    <node id="T24" />
+    <node id="R_th" />
+    <node id="kT" />
+    <node id="mv2" />
+    <node id="g_i" />
+    <node id="E_i" />
+    <node id="Sigmag_i" />
+    <node id="ms" />
+    <node id="v_m" />
+    <node id="mu_JT" />
+    <node id="thetar" />
+    <node id="thetai" />
+    <node id="arcsin" />
+    <node id="theta_c" />
+    <node id="arctan" />
+    <node id="theta_B" />
+    <node id="I0" />
+    <node id="mlamda" />
+    <node id="dsin" />
+    <node id="Deltay" />
+    <node id="lamdaL" />
+    <node id="a2" />
+    <node id="lamdaz" />
+    <node id="nsin" />
+    <node id="NA" />
+    <node id="theta_max" />
+    <node id="rc" />
+    <node id="dn" />
+    <node id="dlamda" />
+    <node id="z_R" />
+    <node id="w" />
+    <node id="w02" />
+    <node id="lamda2" />
+    <node id="Deltalamda" />
+    <node id="nL" />
+    <node id="FWHM" />
+    <node id="FSR" />
+    <node id="DeltaL" />
+    <node id="l_c" />
+    <node id="tau_c" />
+    <node id="Deltaf" />
+    <node id="OPL" />
+    <node id="C_i" />
+    <node id="B_ilamda2" />
+    <node id="Sigma" />
+    <node id="lamda4" />
+    <node id="n_C" />
+    <node id="n_F" />
+    <node id="n_d" />
+    <node id="hf" />
+    <node id="ihbardiffpsi" />
+    <node id="Epsi" />
+    <node id="mc2" />
+    <node id="gammamc2" />
+    <node id="gammamv" />
+    <node id="pc" />
+    <node id="gammaDeltat0" />
+    <node id="E_n" />
+    <node id="charge2" />
+    <node id="a0" />
+    <node id="m_eke" />
+    <node id="n12" />
+    <node id="n22" />
+    <node id="alpha" />
+    <node id="hbarc" />
+    <node id="mL2" />
+    <node id="hbaromega" />
+    <node id="hbarsqrt" />
+    <node id="m_lhbar" />
+    <node id="L_z" />
+    <node id="lamdaN" />
+    <node id="Nm_n" />
+    <node id="Zm_p" />
+    <node id="Deltamc" />
+    <node id="BE" />
+    <node id="m_reactants" />
+    <node id="A2" />
+    <node id="A1" />
+    <node id="v1" />
+    <node id="BRANCH_FLUID DYNAMICS">
+      <data key="d0">branch</data>
+    </node>
+    <node id="rhogh" />
+    <node id="rhov2" />
+    <node id="P0" />
+    <node id="V_displaced" />
+    <node id="F_b" />
+    <node id="rho_fluid" />
+    <node id="rhogDeltah" />
+    <node id="Delta_P" />
+    <node id="Re" />
+    <node id="rhovL" />
+    <node id="F_d" />
+    <node id="etarv" />
+    <node id="C_d" />
+    <node id="v_t" />
+    <node id="AC_d" />
+    <node id="F_L" />
+    <node id="AC_L" />
+    <node id="C_L" />
+    <node id="rhovGamma" />
+    <node id="chargetanabla2" />
+    <node id="diffv" />
+    <node id="nablaP" />
+    <node id="nablav" />
+    <node id="rhog" />
+    <node id="nablaphi" />
+    <edge source="L" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="CONST_mu0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="H_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Al">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="D2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Delta_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="Deltay">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="D">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="DeltaL">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="B_ilamda2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="u" target="diff2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="u" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="u" target="B2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="u" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="T_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k" target="C_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_e" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_e" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_e" target="B2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_e" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Force" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Force" target="FSR">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Area" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Area" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_e" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k_e" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_e" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k_e" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_1" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_1" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q_1" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_2" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q_2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_eps0" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_eps0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_eps0" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_eps0" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_eps0" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="CONST_mu0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="A_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_pi" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Energy" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="BW">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="COP_R">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Energy" target="COP_HP">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Charge" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Charge" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_test" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_test" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q_test" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="grad" target="Voltage">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="grad" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Voltage" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Voltage" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Voltage" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Voltage" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigma" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigma" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="sigma" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigma" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="sigma" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigma" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="sigma" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigma" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Volume" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Volume" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Volume" target="C_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Volume" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Volume" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Volume" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Resistance" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Resistance" target="CONST_mu0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="I_rms">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Resistance" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Resistance" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Resistance" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="P_power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="C_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Resistance" target="PV">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="B_Field" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="B_Field" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="B_Field" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="B_Field" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="f_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="D">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="C_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="nabla">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v" target="nablaphi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Current" target="CONST_mu0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dl" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dl" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dl" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dl" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="integral" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="integral" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="integral" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="integral" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_mu0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_mu0" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="CONST_mu0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="E_avg">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="CONST_h">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Moles" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Moles" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="dPhi_B">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="N_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="dt_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="b">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dPhi_B" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dPhi_B" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N2" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N2" target="N1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N2" target="I1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I_rms" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I_rms" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_c" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_c" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_c" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_c" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_rms" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_rms" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightos" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lightos" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightos" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightos" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightos" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="phi" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="phi" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="phi" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="phi" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_m" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_m" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="ax" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="ax" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="ax" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="ax" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="C" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="j" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="j" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="j" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="omega" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="omega" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="omega" target="CONST_h">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="omega" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="omega" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="omega" target="nabla">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="omega" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Delta_T" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Delta_T" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Delta_T" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="M_sun">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="L2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="L_sun">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="Deltam">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Mass" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_thermal" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k_thermal" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_thermal" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_temp" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_temp" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_B" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k_B" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="k_B" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="k_B" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dQ" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dQ" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Temperature" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Temperature" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Temperature" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Temperature" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Temperature" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Temperature" target="Delta_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_f" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_f" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_i" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_i" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_volume" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_volume" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_volume" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_volume" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho" target="P_1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_avg" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Pressure" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Pressure" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a" target="F_b">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="b" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="b" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="b" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="b" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_h" target="T_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_h" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T_h" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_c" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T_c" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Q_h" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Q_h" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Q_h" target="Q_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Q_h" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Q_h" target="COP_HP">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Q_c" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Q_c" target="COP_R">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f" target="di">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_h" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_h" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="CONST_h" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="CONST_h" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Momentum" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Momentum" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Momentum" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Momentum" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Momentum" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltax" target="Deltap">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltax" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltap" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltat" target="DeltaE">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltat" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltat" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="DeltaE" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltaphi" target="DeltaL_z">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltaphi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="DeltaL_z" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargeV" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargeV" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_y" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_y" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_e" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_e" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_e" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_e" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N_0" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N_0" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N_0" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargexp" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargexp" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargexp" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargexp" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="t_half" target="N_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="t_half" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltam" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltam" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltam" target="DeltaL">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltam" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_n" target="Particles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_n" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Particles" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Particles" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Particles" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="c2" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="c2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="diff2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v2" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v2" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v2" target="A1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v2" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dt_0" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f_0" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f_0" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f_0" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="os" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="os" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="G" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="G" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="G" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="G" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="G" target="A_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="G" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="G" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="grav" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="grav" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="grav" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="grav" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="M_sun" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="M_sun" target="L_sun">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="M_sun" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="km" target="M_sun">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="km" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft2" target="diff2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft2" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diff2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diff2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diff2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diff2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diff2" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla2" target="diff2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nabla2" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nabla2" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_medium" target="lamda_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_medium" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda_0" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="do" target="di">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="do" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="do" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="di" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="di" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R1" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R1" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R2" target="Moles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R2" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R2" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="I_0" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I_0" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightos2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lightos2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta" target="dsin">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta" target="D">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f3" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f3" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="light2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="light2" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="light2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="light2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="light2" target="BE">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="light2" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_max2" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_max2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda_C" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_C" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_12" target="R_H">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_12" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_H" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_H" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_H" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_H" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_22" target="R_H">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_22" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_22" target="n_12">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffpsi" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffpsi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="difft" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="difft" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="ihbar" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="ihbar" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="psi" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="psi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="psi" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="psi" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbar2" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbar2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbar2" target="L2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbar2" target="a0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbar2" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbar2" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="L2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n2" target="L2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n2" target="Al">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n2" target="V1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n2" target="arcsin">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n2" target="arctan">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="B_ilamda2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n2" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="pi2" target="L2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="pi2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="pi2" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_l" target="CONST_h">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_l" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_0" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_0" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Power" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Power" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Power" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Power" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Power" target="C_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Power" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Power" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Power" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Power" target="P0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Power" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lightonstant" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lightonstant" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightonstant" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lightonstant" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_2" target="P_1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_2" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_1" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_12" target="P_1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_12" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_22" target="P_1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_22" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="du" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="du" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dy" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dy" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dy" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="eta" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="eta" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="eta" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="eta" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="eta" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dv" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dv" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nu" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nu" target="BRANCH_FLUID MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_r" target="f_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_r" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_r" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_r" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_r" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_s" target="f_0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_s" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_s" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_v" target="E_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_v" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E_c" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda_cutoff" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_cutoff" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N_c" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N_c" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N_v" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N_v" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_i" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_i" target="BRANCH_CONDENSED MATTER PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T_c_D" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_c_D" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="xp" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="xp" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="zoo" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="zoo" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="H_0" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T_eff4" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T_eff4" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L_sun" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu_e" target="M_sun">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu_e" target="BRANCH_ASTROPHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E_F" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_F" target="BRANCH_STATISTICAL MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda_interaction" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_interaction" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="density" target="M2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="density" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="M2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="flux" target="M2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="flux" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="r2" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="r2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="r2" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="r2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="r2" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="p_mu" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="p_mu" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diff_mu" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diff_mu" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="igamma" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="igamma" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_power" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_power" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_power" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_power" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="I2" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I2" target="I1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I2" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="P_power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V2" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="N1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="P1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V2" target="T1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="V1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V2" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="SigmaI_out" target="SigmaI_in">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="SigmaI_out" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="SigmaI_in" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q1" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q1" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q2" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargepsilon0" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargepsilon0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargepsilon0" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargepsilon0" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargepsilon0" target="B2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargepsilon0" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current_Density" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Current_Density" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Current_Density" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="si" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="si" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="si" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="si" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="si" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="vB" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="vB" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="LB" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="LB" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu0" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu0" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu0" target="B2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu0" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu0" target="Al">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu0" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="epsilon" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Phi_B" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Phi_B" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Phi_B" target="Current">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dI" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dI" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="X_C" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="X_C" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="X_C" target="Resistance">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="X_L" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="X_L" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="X_L" target="Resistance">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="N1" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="N1" target="I1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V1" target="N1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V1" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V1" target="P1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V1" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V1" target="T1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I1" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="I1" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nabla" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla" target="D">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nabla" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffB" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffB" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffE" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffE" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Entropy" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Entropy" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Entropy" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="B2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E2" target="B2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="epsilon0" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="epsilon0" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="epsilon0" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="r3" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="r3" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_H" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_H" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="I_D" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I_D" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dPhi_E" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dPhi_E" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f_c" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="f_c" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="f_c" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="qB" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="qB" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="qB" target="mv">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mv" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="r_L" target="mv">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="r_L" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="D" target="Charge">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="D" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="D" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="D" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="D" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="D" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C0" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="C0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="kappa" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="kappa" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="kappa" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_e" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_e" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho_f" target="D">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho_f" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lighthi_eE" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_eE" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu_r" target="B_Field">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu_r" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu_r" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_m" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_m" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lighthi_m" target="C">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_mH" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lighthi_mH" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="M12" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="M12" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Phi12" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Phi12" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Al" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dPhi" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dPhi" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dB" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dB" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="sigmaV" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigmaV" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargetafB_max" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargetafB_max" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Z0" target="G">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Z0" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Z_L" target="G">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Z_L" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="gravamma" target="G">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gravamma" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="VSWR" target="G">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="VSWR" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_rad" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_rad" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_rad" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_r" target="I2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_r" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_r" target="Omega">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Omega" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="U_max" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="U_max" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_r" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_r" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P_t" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P_t" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="grav_tG_r" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="grav_tG_r" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="A_e" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="gravlamda2" target="A_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gravlamda2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="D2" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_ff" target="D2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_ff" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_p" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_p" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_p" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_g" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_g" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_g" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="BW" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="deltaQ" target="dU">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="deltaQ" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dU" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="deltaW" target="dU">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="deltaW" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nRT" target="PV">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nRT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="PV" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="PV" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="PV" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P2" target="P1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="P1" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T2" target="T1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T2" target="P1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T1" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T1" target="P1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n1" target="V1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n1" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n1" target="arcsin">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n1" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n1" target="arctan">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="RT" target="Pressure">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="RT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_V" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_V" target="C_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="C_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffT" target="C_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffT" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffU" target="C_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffU" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_P" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffH" target="C_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffH" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="TS" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="TS" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffP" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffP" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffP" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffP" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffP" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffS" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffS" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffS" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffS" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffV" target="Entropy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffV" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffV" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffV" target="Power">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Delta_V" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dP" target="Delta_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dP" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dT" target="Delta_V">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dT" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigmaT4" target="j">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="sigmaT4" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda_max" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda_max" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hc" target="Temperature">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hc" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="COP_R" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="COP_HP" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="an" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="an" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="on" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="on" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="st" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="st" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dx" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dx" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q_heat" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="q_heat" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="q_heat" target="Delta_T">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T14" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T14" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="T24" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="T24" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="R_th" target="Delta_T">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="R_th" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="kT" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="kT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="kT" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mv2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mv2" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="g_i" target="Particles">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="g_i" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E_i" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_i" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Sigmag_i" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Sigmag_i" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="ms" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="ms" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_m" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_m" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mu_JT" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mu_JT" target="BRANCH_THERMODYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="thetar" target="thetai">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="thetar" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="thetai" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="arcsin" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta_c" target="arcsin">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta_c" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="arctan" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta_B" target="arctan">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta_B" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="I0" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="I0" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mlamda" target="dsin">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mlamda" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dsin" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dsin" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltay" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamdaL" target="Deltay">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamdaL" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="a2" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamdaz" target="Force">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamdaz" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nsin" target="NA">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nsin" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="NA" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="theta_max" target="NA">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="theta_max" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rc" target="Mass">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rc" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dn" target="dlamda">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dn" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dn" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="dlamda" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="dlamda" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="z_R" target="w">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="z_R" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="z_R" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="z_R" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="w" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="w" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="w02" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="w02" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda2" target="Deltalamda">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda2" target="B_ilamda2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda2" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltalamda" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nL" target="Deltalamda">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nL" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="FWHM" target="FSR">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="FWHM" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="FSR" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="DeltaL" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="l_c" target="Deltalamda">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="l_c" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="tau_c" target="Deltaf">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="tau_c" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltaf" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="OPL" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="OPL" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_i" target="B_ilamda2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="C_i" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="B_ilamda2" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Sigma" target="B_ilamda2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Sigma" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamda4" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamda4" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_C" target="Volume">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_C" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_F" target="Volume">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_F" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n_d" target="Volume">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n_d" target="BRANCH_OPTICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hf" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hf" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hf" target="BRANCH_ELECTROMAGNETISM">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="ihbardiffpsi" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="ihbardiffpsi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Epsi" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Epsi" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mc2" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mc2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mc2" target="E2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gammamc2" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gammamc2" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="gammamv" target="Momentum">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gammamv" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="pc" target="E2">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="pc" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="gammaDeltat0" target="Deltat">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="gammaDeltat0" target="BRANCH_RELATIVITY">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E_n" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="E_n" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="E_n" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="charge2" target="a0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="charge2" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="charge2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="a0" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_eke" target="a0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_eke" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n12" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n12" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="n22" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="n22" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="alpha" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="alpha" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="alpha" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="alpha" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbarc" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbarc" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="mL2" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="mL2" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbaromega" target="E_n">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbaromega" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="hbarsqrt" target="L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="hbarsqrt" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_lhbar" target="L_z">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_lhbar" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="L_z" target="BRANCH_QUANTUM MECHANICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="lamdaN" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="lamdaN" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Nm_n" target="Deltam">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Nm_n" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Zm_p" target="Deltam">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Zm_p" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Deltamc" target="BE">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Deltamc" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="BE" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="m_reactants" target="Energy">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="m_reactants" target="BRANCH_ATOMIC AND NUCLEAR PHYSICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="A2" target="A1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="A2" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="A1" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v1" target="A1">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v1" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhogh" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhogh" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhogh" target="P0">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhov2" target="CONST_c">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhov2" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhov2" target="AC_d">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhov2" target="AC_L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="P0" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="V_displaced" target="F_b">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="V_displaced" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="F_b" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rho_fluid" target="F_b">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rho_fluid" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhogDeltah" target="Delta_P">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhogDeltah" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Delta_P" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="Re" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="Re" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhovL" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhovL" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="F_d" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="F_d" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="F_d" target="AC_d">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="etarv" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="etarv" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_d" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="C_d" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="v_t" target="Area">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="v_t" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="AC_d" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="F_L" target="AC_L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="F_L" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="AC_L" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="C_L" target="CONST_pi">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="C_L" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhovGamma" target="F_L">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhovGamma" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="chargetanabla2" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="chargetanabla2" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffv" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="diffv" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="diffv" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nablaP" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nablaP" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nablaP" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nablav" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nablav" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="nablav" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhog" target="CONST_e">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="rhog" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+    <edge source="rhog" target="difft">
+      <data key="d2">formula</data>
+    </edge>
+    <edge source="nablaphi" target="BRANCH_FLUID DYNAMICS">
+      <data key="d2">belongs_to</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,2 @@
+Notebooks/glove.6B.zip filter=lfs diff=lfs merge=lfs -text
+Notebooks/glove.6B.50d.txt filter=lfs diff=lfs merge=lfs -text
